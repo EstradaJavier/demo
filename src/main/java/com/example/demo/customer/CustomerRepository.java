@@ -11,9 +11,13 @@ import java.util.List;
   ----------  Spring creates a new instance of the class [CustomerRepository].
 */
 @Repository
-@Primary
+/*
+@Primary -- Removing this annotation because everything is being done through the
+            configuration now.
+*/
+
 //  ----------  This class will be used to implement a real db.
-public class CustomerRepository implements CustomerRepo{
+public class CustomerRepository implements CustomerRepo {
     @Override
     public List<Customer> getCustomers() {
 //  ----------  TODO: connect to real db  ----------  //
