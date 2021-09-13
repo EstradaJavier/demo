@@ -12,7 +12,7 @@ public class CustomerController {
 //  ----------  Adding the word 'final' makes customerService immutable.
     private final CustomerService customerService;
 
-//  ----------  Adding dependency injection with @Autowired injects a customer service.
+//  ----------  Adding a [dependency injection] with @Autowired to CustomerService.
     @Autowired
     public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
