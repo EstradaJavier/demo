@@ -23,3 +23,28 @@ List of topics covered in this course
 - Lombok
 - Running Spring Boot Applications
 
+## Table of Contents
+1. [Libraries and Utilities Applied](#Libraries-and-Utilities-Applied)
+2. [Setup Instruction](#Setup-Instruction)
+
+
+### Libraries and Utilities Applied
+
+- Add any libraties and utitlities used in this application here:
+- jackson [link](https://github.com/FasterXML/jackson)
+- For EXAMPLE:
+- - jQuery [link](https://jquery.com/)
+- - Bootstrap [link](https://getbootstrap.com/docs/4.5/getting-started/download/)
+
+
+### Setup Instruction
+
+1. Clone this repo locally.
+1. Create an `application.properties` file with valid credentials for a MySQL connection, use the `application.properties.example` as a template.
+1. Make sure to start MySQL server.
+1. Add any API keys needed to test the full functionality.
+1. Run the seeder.sql file to populate some data in the database.
+
+
+
+
