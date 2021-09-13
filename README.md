@@ -31,6 +31,7 @@ List of topics covered in this course
 ### Libraries and Utilities Applied
 
 - Add any libraties and utitlities used in this application here:
+- jackson [link](https://github.com/FasterXML/jackson)
 - For EXAMPLE:
 - - jQuery [link](https://jquery.com/)
 - - Bootstrap [link](https://getbootstrap.com/docs/4.5/getting-started/download/)
