@@ -14,7 +14,7 @@ public class CustomerConfiguration {
     @Bean
     CommandLineRunner commandLineRunner() {
         return args -> {
-            System.out.println("Javier has a successful Spring Boot project working!");
+            System.out.println("the jackson librarry is the best JSON parser for java");
         };
     }
 

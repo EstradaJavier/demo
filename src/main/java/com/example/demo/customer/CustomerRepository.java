@@ -10,7 +10,12 @@ import java.util.List;
   ----------  When we annotate a class with @Component,
   ----------  Spring creates a new instance of the class [CustomerRepository].
 */
-@Repository
+
+/*
+  ----------  @Repository(value = "fake") --> We do not need this annotation
+  ----------  if we are instantiating this class [CustomerRepository].
+*/
+
 /*
 @Primary -- Removing this annotation because everything is being done through the
             configuration now.

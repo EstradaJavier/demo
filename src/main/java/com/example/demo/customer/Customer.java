@@ -9,15 +9,26 @@ public class Customer {
         this.name = name;
     }
 
+//  ----------  id
     public Long getId() {
         return id;
     }
 
+//  ----------  customerId
+    public Long getCustomerId() {
+        return id;
+    }
+//  ----------  name
     public String getName() {
         return name;
     }
 
-    @Override
+/*
+  ----------  The @Override annotation indicates that the child class method is
+  ----------  over-writing its base class method. It extracts a warning from the
+  ----------  compiler if the annotated method doesn't actually override anything
+*/
+@Override
     public String toString() {
         return "Customer{" +
                 "id=" + id +
