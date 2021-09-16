@@ -14,12 +14,18 @@ public class CustomerController {
 
 //  ----------  Adding a [dependency injection] with @Autowired to CustomerService.
     @Autowired
+
     public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
-
+/*
+  ----------  @GetMapping is part of the REST Layer
+  ----------  It is used to handle HTTP Request
+  ----------  [POST - (GET) - DELETE - PUT]
+*/
     @GetMapping
     List<Customer> getCustomer() {
+
         return customerService.getCustomer();
     }
 }

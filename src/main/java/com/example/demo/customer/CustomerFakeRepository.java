@@ -1,7 +1,5 @@
 package com.example.demo.customer;
 
-import org.springframework.stereotype.Repository;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -13,9 +11,9 @@ public class CustomerFakeRepository implements CustomerRepo {
     @Override
     public List<Customer> getCustomers() {
         return Arrays.asList(
-                new Customer(1L, "Javier Estrada"),
-                new Customer(2L, "Alesha Estrada"),
-                new Customer(3L, "Bear Estrada")
+                new Customer(1L, "Javier Estrada", "password1"),
+                new Customer(2L, "Alesha Estrada", "password2"),
+                new Customer(3L, "Bear   Estrada", "password3")
         );
     }
 }

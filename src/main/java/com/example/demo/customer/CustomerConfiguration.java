@@ -14,7 +14,7 @@ public class CustomerConfiguration {
     @Bean
     CommandLineRunner commandLineRunner() {
         return args -> {
-            System.out.println("the jackson librarry is the best JSON parser for java");
+            System.out.println("The jackson library is the best JSON parser for java");
         };
     }
 
